@@ -8,7 +8,7 @@ const ExpenseFilter = (props) => {
   return (
     <div className="expenses-filter">
       <div className="expenses-filter__control">
-        <lable>Filter by year</lable>
+        <label>Filter by year</label>
         <select onChange={dropdownChangeHandler} 
             value={props.selected}>
           <option value="2022">2022</option>
